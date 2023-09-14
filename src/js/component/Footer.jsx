@@ -1,12 +1,10 @@
-import REACT from "react";
+import React from "react";
+
 const Footer = () => {
     return (
-        <nav className="ancho navbar navbar-expand-lg bg-dark text-light">
-        <div className="container-fluid  justify-content-center" >
-          <p>Copyright © Your Website 2019</p>
-    
-        </div>
-      </nav>
+        <footer class="py-2 bg-dark fixed-bottom">
+            <p class="text-center text-muted">Desarrollado con amor  Catalina Sanchez C 2023</p>
+        </footer>
     )
-}
+};
 export default Footer;
